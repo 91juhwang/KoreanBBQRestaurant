@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>Ssambap Korean BBQ</title>
 </head>
 <body>
-	<nav class="navbar navbar-default">
+
+
+	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -20,24 +22,68 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Brand</a>
+	      <a class="navbar-brand" href="#">SSAMBAP KOREAN BBQ</a><br>
+				<a class="navbar-brand nav_info">2350 Nesconset Highway Stony Brook, NY 11790</a></li><br>
+				<a class="navbar-brand nav_info">Tel: (631) 675-6402</a></li>
 	    </div>
-
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li>saf</li>
-				</ul>
-	    </div>
-
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
-					<li><a href="#">Bibimbap</a></li>
+        	<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FOOD MENU <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+			        <li><a href="#">Salad/Soup</a></li>
+							<li><a href="#">Appetizers</a></li>
+							<li><a href="#">Authentic Korean BBQ</a></li>
+							<li><a href="#">Traditional Selections</a></li>
+							<li><a href="#">SsamBap/Bibimbap</a></li>
+							<li><a href="#">Lunch Specials</a></li>
+							<li><a href="#">Beverages</a></li>
+	          </ul>
+	        </li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	
+	<div class="container-fluid" id="home">
+		<div class="row">
+			<div class="col-md-12 col-xs-12" id="landing">
+				<h1><span id="red">SSAMBAP</span> <br><span id="blue">KOREAN BBQ</span></h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="soup_salad">
+		<div class="row">
+			<div class="col-md-12 col-xs-12 menu_container" id="landing">
+				<div class="col-md-6 col-xs-6">
+					<h4>Soup/Salad</h4>
+					<ul class="list-group">
+					  <li class="list-group-item"> 
+					  	<span class="badge">$4</span>
+					  	House Salad - <span class="description"> Assorted vegetables</span>
+					  </li>
+					  <li class="list-group-item">Dapibus ac facilisis in</li>
+					  <li class="list-group-item">Morbi leo risus</li>
+					  <li class="list-group-item">Porta ac consectetur ac</li>
+					  <li class="list-group-item">Vestibulum at eros</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-xs-6">
+					<h4>Soup/Salad</h4>
+					<ul class="list-group">
+					  <li class="list-group-item">Cras justo odio</li>
+					  <li class="list-group-item">Dapibus ac facilisis in</li>
+					  <li class="list-group-item">Morbi leo risus</li>
+					  <li class="list-group-item">Porta ac consectetur ac</li>
+					  <li class="list-group-item">Vestibulum at eros</li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+	</div>
+
 
 </body>
 </html>
