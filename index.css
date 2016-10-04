@@ -65,6 +65,7 @@ img {
 #popular_menu h3 {
 	margin-top: 80px;
 	font-weight: bold;
+	color: brown;
 }
 .badge {
 	background-color: white;
@@ -87,6 +88,7 @@ img {
 #lunch_specials h3 {
 	margin-top:60px;
 	font-weight: bold;
+	color: brown;
 }
 #lunch_hour {
 	font-size: 15px;
@@ -96,6 +98,7 @@ img {
 }
 #all_menu h3 {
 	font-weight: bold;
+	color: brown;
 }
 #copyright {
 	font-size: 10px;
