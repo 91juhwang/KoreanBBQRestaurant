@@ -1,56 +1,129 @@
+/* Small devices (tablets, 768px and up) */
+body {
+	font-family: helvetica;
+}
+img {
+	margin:0 auto;
+}
+#landing_img {
+	position: fixed;
+	width: 100%;
+	height: 900px;
+	z-index: 0;
+}
 .navbar-default .navbar-brand {
-	color: #DAF7A6;
+	color: brown;
 	font-weight: bold;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-	color: white;
+	color: black;
 }
 .navbar-default .navbar-nav>li>a {
-	color: white;
+	color: black;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: #DAF7A6;
+	color: brown;
 }
 .navbar-brand {
 	font-size: 21px;
 }
 .navbar-default { 
-	background-color: #AC133F;
+	background-color: white;
 }
 .nav_info li a {
 	padding: 0px;
 	font-size: 12px;
 }
 #landing {
-	background-color: lightgrey;
-	height: 500px;
+	height: 700px;
 }
 #landing h1{
-	font-size: 90px;
-	color: #900C3F;
-	margin-top: 100px;
+	font-size: 40px;
+	color: brown;
+	margin-top: 180px;
 	text-align: center;
 	font-weight: bold;
 }
 #landing li {
 	list-style: none;
 	text-align: center;
-	color: #FF5733;
-	font-size: 25px;
+	color: black;
+	font-size: 14px;
 	font-weight: bold;
+	margin-bottom: 4px;
+}
+#landing .open_hour {
+	font-size: 14px;
+	color: black;
+	margin-top: 1px;
 }
 
+#popular_menu {
+	background-color: rgb(242,241,232);
+	height: 700px;
+}
+#popular_menu h3 {
+	margin-top: 80px;
+	font-weight: bold;
+}
 .badge {
 	background-color: white;
-	color: black;
+	color: grey;
 	font-size: 15px;
 	margin-top: 10px;
 	width: 50px;
 }
+
 .description {
 	color: grey;
 	font-size: 12px;
 }
 .list-group-item {
 	text-align: center;
+}
+#lunch_specials {
+	background-color: #E4E6C3;
+}
+#lunch_specials h3 {
+	margin-top:60px;
+	font-weight: bold;
+}
+#lunch_hour {
+	font-size: 15px;
+}
+#all_menu {
+	background-color: rgb(242, 241, 232);
+}
+#all_menu h3 {
+	font-weight: bold;
+}
+#copyright {
+	font-size: 10px;
+	color: grey;
+	text-align: center;
+	margin-top: 40px;
+}
+@media (min-width: 768px) {
+		#landing h1{
+		font-size: 82px;
+	}
+	#landing li {
+		list-style: none;
+		text-align: center;
+		color: black;
+		font-size: 21px;
+		font-weight: bold;
+		margin-bottom: 4px;
+	}
+	#landing .open_hour {
+		font-size: 15px;
+		color: black;
+		margin-top: 1px;
+	}
+	#landing_img {
+	position: fixed;
+	width: 100%;
+	z-index: 0;
+}
+
 }
