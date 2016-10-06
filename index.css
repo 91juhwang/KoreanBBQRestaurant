@@ -59,7 +59,6 @@ img {
 }
 
 #popular_menu {
-	background-color: rgb(242,241,232);
 	height: 700px;
 }
 #popular_menu h3 {
@@ -82,9 +81,7 @@ img {
 .list-group-item {
 	text-align: center;
 }
-#lunch_specials {
-	background-color: #E4E6C3;
-}
+
 #lunch_specials h3 {
 	margin-top:60px;
 	font-weight: bold;
@@ -93,9 +90,7 @@ img {
 #lunch_hour {
 	font-size: 15px;
 }
-#all_menu {
-	background-color: rgb(242, 241, 232);
-}
+
 #all_menu h3 {
 	font-weight: bold;
 	color: brown;
